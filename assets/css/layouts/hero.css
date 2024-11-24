@@ -37,18 +37,18 @@ textarea:focus {
 
 .hero {
   background-image: url("../../../assets/img/others/bg-desktop.jpg");
-  height: 500px;
+  height: 600px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  margin-top: 90px;
+  margin-top: 70px;
 }
 
 @media (max-width: 767px) {
   .hero {
-    background-image: url("../../../assets/img/others/bg-smartphone.jpg") !important;
-    height: 800px;
+    background-image: url("../../../assets/img/others/bg-mobile-unicorn.png") !important;
+    height: 950px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
