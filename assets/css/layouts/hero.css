@@ -36,7 +36,7 @@ textarea:focus {
 }
 
 .hero {
-  background-image: url("../../../assets/img/others/bg-desktop.jpg");
+  background-image: url("../../../assets/img/others/bg-desktop-unicorn.png");
   height: 600px;
   background-position: center;
   background-repeat: no-repeat;
@@ -53,7 +53,7 @@ textarea:focus {
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .hero {
-    background-image: url("../../../assets/img/others/bg-desktop.jpg");
+    background-image: url("../../../assets/img/others/bg-desktop-unicorn.png");
     margin-top: 40px;
   }
 }
