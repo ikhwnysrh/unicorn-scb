@@ -123,37 +123,18 @@
       <div class="container pt-3">
 
         <div class="row">
-          <div class="col-12 mt-5 mb-3">
+          <div class="col-12 mt-5">
             <h1 class="mb-1">Produk Kami</h1>
-            <p class="text-white">
+            <span class="text-white">
               Memiliki berbagai macam varian rasa, dapat memenuhi selera anda dengan pilihan rasa yang beragam.
-            </p>
+            </span>
           </div>
         </div>
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-5 justify-content-center">
 
-          <!-- Product : Rawon -->
-          <div class="col">
-            <div class="card" data-aos="fade-up">
-              <img src="assets/img/products/corn-ribs.png" class="card-img-top img-fluid" alt="varian-rawon">
-              <div class="card-body text-start">
-                <h5>Corn Ribs</h5>
-                <p class="card-text">
-                  Nikmati berbagai varian rasa, seperti Balado, Cheese, dan Spicy Creamy.
-                </p>
-                <ul class="varian-list">
-                  <li><strong>Balado:</strong> Pedas khas Indonesia.</li>
-                  <li><strong>Cheese:</strong> Gurih dengan taburan keju.</li>
-                  <li><strong>Spicy Creamy:</strong> Perpaduan rasa pedas dan creamy.</li>
-                </ul>
-              </div>
-              <div class="card-footer text-start">
-                <button type="button" class="btn btn-detail-product" data-bs-toggle="modal"
-                  data-bs-target="#rawon">Detail
-                  Produk</button>
-              </div>
-            </div>
+          
+          
 
             <div class="modal fade" id="rawon" tabindex="-1" aria-labelledby="rawon" aria-hidden="true">
               <div
@@ -200,333 +181,76 @@
           </div>
           <!-- End Product -->
 
-          <!-- Product : Sambal Goreng -->
-          <div class="col">
-            <div class="card" data-aos="fade-up">
-              <img src="assets/img/products/lemon-tea.png" class="card-img-top img-fluid" alt="varian-sambalgoreng">
-              <div class="card-body text-start">
-                <h5>Lemon Tea</h5>
-                <p class="card-text">
-                  Minuman segar dengan perpaduan rasa lemon alami dan teh yang menyegarkan, cocok untuk menemani waktu santai Anda.
-                </p>
-              </div>
-              <div class="card-footer text-start">
-                <button type="button" class="btn btn-detail-product" data-bs-toggle="modal"
-                  data-bs-target="#sambalgoreng">Detail
-                  Produk</button>
-              </div>
-            </div>
-
-            <div class="modal fade" id="sambalgoreng" tabindex="-1" aria-labelledby="sambalgoreng" aria-hidden="true">
-              <div
-                class="modal-dialog modal-dialog-scrollable modal-lg modal-fullscreen-lg-down modal-fullscreen-md-down modal-fullscreen-sm-down">
-                <div class="modal-content">
-                  <div class="modal-body">
-                    <img src="assets/img/products/resep/rayambkr.jpg" class="img-fluid rounded">
-                    <br>
-                    <p class="product-detail text-start">
-                      <strong>Bumbu Masak Umik varian Sambal Goreng</strong> yang khusus dibuat untuk memasak sambal
-                      goreng.
-                      Sambal goreng merupakan masakan tradisional Indonesia yang berasal dari Indonesia.
+          <div class="container">
+            <div class="row justify-content-center mb-5">
+              <!-- Card Corn Ribs -->
+              <div class="col-md-4 mt-4">
+                <div class="card text-center" data-aos="fade-up">
+                  <img src="assets/img/products/corn-ribs.png" class="card-img-top img-fluid" alt="varian-rawon">
+                  <div class="card-body">
+                    <h5 class="product-title">Corn Ribs</h5>
+                    <p class="card-text">
+                      Nikmati berbagai varian rasa, seperti Balado, Cheese, dan Spicy Creamy.
                     </p>
-                    <div class="product-resep">
-                      <table class="table table-striped p-3">
-                        <thead>
-                          <tr class="bg-dark">
-                            <th scope="col">Bahan</th>
-                            <th scope="col">Cara Memasak</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <td>
-                            Tempe, tahu, bumbu masak Umik Varian Sambal Goreng, air, minyak, garam
-                          </td>
-                          <td class="text-start">
-                            <ol>
-                              <li>Panaskan minyak, tumis bumbu masak Umik Varian Sambal Goreng hingga harum.</li>
-                              <li>Masukkan tempe dan tahu, aduk hingga berubah warna.</li>
-                              <li>Tuangkan air, masak hingga matang.</li>
-                              <li>Tambahkan garam secukupnya.</li>
-                              <li>Angkat dan sajikan.</li>
-                            </ol>
-                          </td>
-                        </tbody>
-                      </table>
+                    <!-- Daftar Varian Rasa dan Harga -->
+                    <div class="price-section">
+                      <ul class="varian-list">
+                        <li>
+                          <span class="varian-name">Balado :</span> 
+                          <span class="price">Rp 10.000</span>
+                        </li>
+                        <li>
+                          <span class="varian-name">Cheese :</span> 
+                          <span class="price">Rp 10.000</span>
+                        </li>
+                        <li>
+                          <span class="varian-name">Spicy Creamy :</span> 
+                          <span class="price highlight">Rp 15.000</span>
+                        </li>
+                        <li>
+                          <span class="varian-name">+ Lemon Tea :</span> 
+                          <span class="price combo">Rp 18.000</span>
+                        </li>
+                      </ul>
                     </div>
                   </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                  <div class="card-footer">
+                    <button type="button" class="btn btn-detail-product" data-bs-toggle="modal" data-bs-target="#whatsappModal">Pesan Sekarang</button>
+                  </div>
+                </div>
+              </div>
+              <!-- Card Lemon Tea -->
+              <div class="col-md-4 mt-4">
+                <div class="card text-center" data-aos="fade-up">
+                  <img src="assets/img/products/lemon-tea.png" class="card-img-top img-fluid" alt="varian-sambalgoreng">
+                  <div class="card-body">
+                    <h5>Lemon Tea</h5>
+                    <p class="card-text">
+                      Minuman segar dengan perpaduan rasa lemon alami dan teh yang menyegarkan, cocok untuk menemani waktu santai Anda.
+                    </p>
+                    <div class="price-section">
+                      <ul class="varian-list">
+                        <li>
+                          <span class="varian-name">Lemon Tea :</span> 
+                          <span class="price">Rp 5.000</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <button type="button" class="btn btn-detail-product" data-bs-toggle="modal" data-bs-target="#whatsappModal">Pesan Sekarang</button>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <!-- End Product -->
-
-          <!-- Product : Nasi Goreng -->
-          <!-- <div class="col">
-            <div class="card" data-aos="fade-up">
-              <img src="assets/img/products/nasgor.jpeg" class="card-img-top img-fluid" alt="varian-nasgor">
-              <div class="card-body text-start">
-                <h5>Nasi Goreng</h5>
-                <p class="card-text">
-                  Bumbu Masak Umik varian yang khusus dibuat untuk memasak nasi goreng.
-                </p>
-              </div>
-              <div class="card-footer text-start">
-                <button type="button" class="btn btn-detail-product" data-bs-toggle="modal"
-                  data-bs-target="#nasgor">Detail
-                  Produk</button>
-              </div>
-            </div>
-
-            <div class="modal fade" id="nasgor" tabindex="-1" aria-labelledby="nasgor" aria-hidden="true">
-              <div
-                class="modal-dialog modal-dialog-scrollable modal-lg modal-fullscreen-lg-down modal-fullscreen-md-down modal-fullscreen-sm-down">
-                <div class="modal-content">
-                  <div class="modal-body">
-                    <img src="assets/img/products/resep/rnasgor.jpg" class="img-fluid rounded">
-                    <br>
-                    <p class="product-detail text-start">
-                      <strong>Bumbu Masak Umik varian Nasi goreng</strong> yang khusus dibuat untuk memasak nasi goreng.
-                      Nasi goreng merupakan masakan tradisional Indonesia yang berasal dari Indonesia.
-                    </p>
-                    <div class="product-resep">
-                      <table class="table table-striped p-3">
-                        <thead>
-                          <tr class="bg-dark">
-                            <th scope="col">Bahan</th>
-                            <th scope="col">Cara Memasak</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <td>
-                            Nasi, bumbu masak Umik Varian Nasi Goreng, telur, minyak, garam
-                          </td>
-                          <td class="text-start">
-                            <ol>
-                              <li>Panaskan minyak, tumis bumbu masak Umik Varian Nasi Goreng hingga harum.</li>
-                              <li>Masukkan telur, aduk hingga berubah warna.</li>
-                              <li>Masukkan nasi, aduk hingga rata.</li>
-                              <li>Tambahkan garam secukupnya.</li>
-                              <li>Angkat dan sajikan.</li>
-                            </ol>
-                          </td>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
-          <!-- End Product -->
-
-          <!-- Product : Sayur Sop -->
-          <!-- <div class="col">
-            <div class="card" data-aos="fade-up">
-              <img src="assets/img/products/sop.jpg" class="card-img-top img-fluid" alt="varian-sop">
-              <div class="card-body text-start">
-                <h5>Sayur Sop</h5>
-                <p class="card-text">
-                  Bumbu Masak Umik varian yang khusus dibuat untuk memasak sayur sop.
-                </p>
-              </div>
-              <div class="card-footer text-start">
-                <button type="button" class="btn btn-detail-product" data-bs-toggle="modal" data-bs-target="#sop">Detail
-                  Produk</button>
-              </div>
-            </div>
-
-            <div class="modal fade" id="sop" tabindex="-1" aria-labelledby="sop" aria-hidden="true">
-              <div
-                class="modal-dialog modal-dialog-scrollable modal-lg modal-fullscreen-lg-down modal-fullscreen-md-down modal-fullscreen-sm-down">
-                <div class="modal-content">
-                  <div class="modal-body">
-                    <img src="assets/img/products/resep/rsop.jpg" class="img-fluid rounded">
-                    <br>
-                    <p class="product-detail text-start">
-                      <strong>Bumbu Masak Umik varian Sayur Sop</strong> yang khusus dibuat untuk memasak sayur sop.
-                      Sayur sop merupakan masakan tradisional Indonesia yang berasal dari Indonesia.
-                    </p>
-                    <div class="product-resep">
-                      <table class="table table-striped p-3">
-                        <thead>
-                          <tr class="bg-dark">
-                            <th scope="col">Bahan</th>
-                            <th scope="col">Cara Memasak</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <td>
-                            Wortel, kentang, brokoli, buncis, bawang bombay, bumbu masak Umik Varian Sayur Sop, garam,
-                            air
-                          </td>
-                          <td class="text-start">
-                            <ol>
-                              <li>Potong semua sayuran sesuai selera.</li>
-                              <li>Panaskan sedikit minyak, tumis bawang bombay hingga harum.</li>
-                              <li>Masukkan sayuran ke dalam panci.</li>
-                              <li>Tambahkan air secukupnya hingga sayuran terendam.</li>
-                              <li>Masukkan bumbu masak Umik Varian Sayur Sop dan garam secukupnya.</li>
-                              <li>Masak hingga sayuran lunak dan rasanya sedap.</li>
-                              <li>Angkat dan sajikan sayur sop dalam mangkuk.</li>
-                            </ol>
-                          </td>
-                        </tbody>
-                      </table>
-
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
-          <!-- End Product -->
-
-          <!-- Product : Opor -->
-          <!-- <div class="col">
-            <div class="card" data-aos="fade-up">
-              <img src="assets/img/products/opor.jpeg" class="card-img-top img-fluid" alt="varian-opor">
-              <div class="card-body text-start">
-                <h5>Opor</h5>
-                <p class="card-text">
-                  Bumbu Masak Umik varian yang khusus dibuat untuk memasak opor.
-                </p>
-              </div>
-              <div class="card-footer text-start">
-                <button type="button" class="btn btn-detail-product" data-bs-toggle="modal"
-                  data-bs-target="#opor">Detail
-                  Produk</button>
-              </div>
-            </div>
-
-            <div class="modal fade" id="opor" tabindex="-1" aria-labelledby="opor" aria-hidden="true">
-              <div
-                class="modal-dialog modal-dialog-scrollable modal-lg modal-fullscreen-lg-down modal-fullscreen-md-down modal-fullscreen-sm-down">
-                <div class="modal-content">
-                  <div class="modal-body">
-                    <img src="assets/img/products/resep/ropor.jpg" class="img-fluid rounded">
-                    <br>
-                    <p class="product-detail text-start">
-                      <strong>Bumbu Masak Umik varian Opor</strong> yang khusus dibuat untuk memasak opor.
-                      Opor merupakan masakan tradisional Indonesia yang berasal dari Indonesia.
-                    </p>
-                    <div class="product-resep">
-                      <table class="table table-striped p-3">
-                        <thead>
-                          <tr class="bg-dark">
-                            <th scope="col">Bahan</th>
-                            <th scope="col">Cara Memasak</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <td>
-                            Ayam potong, bawang putih, bawang merah, bumbu masak Umik Varian Opor, santan, garam, daun
-                            salam, serai
-                          </td>
-                          <td class="text-start">
-                            <ol>
-                              <li>Potong ayam sesuai keinginan.</li>
-                              <li>Tumis bawang putih dan bawang merah hingga harum.</li>
-                              <li>Masukkan potongan ayam dan aduk hingga berubah warna.</li>
-                              <li>Tambahkan bumbu masak Umik Varian Opor, daun salam, dan serai.</li>
-                              <li>Tuang santan secukupnya hingga ayam terendam.</li>
-                              <li>Masak dengan api kecil hingga ayam matang dan kuah mengental.</li>
-                              <li>Tambahkan garam secukupnya sesuai selera.</li>
-                              <li>Angkat dan hidangkan Opor Ayam dalam piring.</li>
-                            </ol>
-                          </td>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
-          <!-- End Product -->
-
-          <!-- Product : Gulai Semur -->
-          <!-- <div class="col">
-            <div class="card" data-aos="fade-up">
-              <img src="assets/img/products/gulai.jpeg" class="card-img-top img-fluid" alt="varian-gulai">
-              <div class="card-body text-start">
-                <h5>Gule</h5>
-                <p class="card-text">
-                  Bumbu Masak Umik varian yang khusus dibuat untuk memasak gulai semur.
-                </p>
-              </div>
-              <div class="card-footer text-start">
-                <button type="button" class="btn btn-detail-product" data-bs-toggle="modal"
-                  data-bs-target="#gulai">Detail
-                  Produk</button>
-              </div>
-            </div>
-
-            <div class="modal fade" id="gulai" tabindex="-1" aria-labelledby="gulai" aria-hidden="true">
-              <div
-                class="modal-dialog modal-dialog-scrollable modal-lg modal-fullscreen-lg-down modal-fullscreen-md-down modal-fullscreen-sm-down">
-                <div class="modal-content">
-                  <div class="modal-body">
-                    <img src="assets/img/products/resep/rsemur.jpg" class="img-fluid rounded">
-                    <br>
-                    <p class="product-detail text-start">
-                      <strong>Bumbu Masak Umik varian Gulai</strong> yang khusus dibuat untuk memasak gulai atau semur.
-                      Gulai merupakan masakan tradisional Indonesia yang berasal dari Indonesia.
-                    </p>
-                    <div class="product-resep">
-                      <table class="table table-striped p-3">
-                        <thead>
-                          <tr class="bg-dark">
-                            <th scope="col">Bahan</th>
-                            <th scope="col">Cara Memasak</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <td>
-                            Daging sapi, bawang bombay, bawang putih, bawang merah, bumbu masak Umik Varian Gulai,
-                            santan, garam, daun salam, serai, minyak
-                          </td>
-                          <td class="text-start">
-                            <ol>
-                              <li>Potong daging sapi sesuai keinginan.</li>
-                              <li>Tumis bawang bombay, bawang putih, dan bawang merah hingga harum.</li>
-                              <li>Masukkan potongan daging sapi dan aduk hingga berubah warna.</li>
-                              <li>Tambahkan bumbu masak Umik Varian Gulai, daun salam, dan serai.</li>
-                              <li>Tuang santan secukupnya hingga daging terendam.</li>
-                              <li>Masak dengan api kecil hingga daging sapi empuk dan kuah mengental.</li>
-                              <li>Tambahkan garam secukupnya sesuai selera.</li>
-                              <li>Angkat dan hidangkan Gulai Semur dalam piring.</li>
-                            </ol>
-                          </td>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
-          <!-- End Product -->
+          
 
         </div>
     </section>
 
     <!-- Inspirasi -->
-    <section id="inspirasi">
+    <!-- <section id="inspirasi">
       <div class="container">
 
         <div class="row">
@@ -653,85 +377,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <section id="testimonial">
-      <div class="container">
-        <div class="testimonial-title text-center pb-3">
-          <h3>Testimonial</h3>
-          <p>Apa kata mereka tentang Bumbu Umik?</p>
-        </div>
 
-        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-
-            <!-- First People -->
-            <div class="carousel-item active">
-              <div class="row justify-content-center">
-                <div class="col-lg-6 col-md-8 col-sm-10 col-12">
-                  <div class="testimonial-item text-center">
-                    <img class="img-fluid rounded-circle mb-3" src="assets/img/icons/avatar-man.png"
-                      alt="Testimonial 1">
-                    <h3>John Doe</h3>
-                    <div class="rating">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="far fa-star"></i>
-                      <i class="far fa-star"></i>
-                    </div>
-                    <p class="font-weight-light mb-0">
-                      "Bumbu Umik sangat cocok untuk memasak, <br> rasanya enak dan tidak berlebihan."
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Second People -->
-            <div class="carousel-item">
-              <div class="row justify-content-center">
-                <div class="col-lg-6 col-md-8 col-sm-10 col-12">
-                  <div class="testimonial-item text-center">
-                    <img class="img-fluid rounded-circle mb-3" src="assets/img/icons/avatar-man.png"
-                      alt="Testimonial 2">
-                    <h3>Hafizhulqisthi</h3>
-                    <div class="rating">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star-half"></i>
-                    </div>
-                    <p class="font-weight-light mb-0">
-                      "Banyak varian rasa yang dapat dipilih, <br> dan sangat cocok untuk memasak."
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Tambahkan tombol navigasi -->
-            <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </a>
-
-          </div>
-        </div>
-
-        <div class="text-center mt-4">
-          <button type="button" class="btn testimonial-button" data-bs-toggle="modal" data-bs-target="#ulasanModal">
-            Ulasan Lainnya
-          </button>
-        </div>
-
-      </div>
-    </section>
 
     <section id="call-to-action">
       <div class="container">
