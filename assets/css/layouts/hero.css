@@ -47,7 +47,7 @@ textarea:focus {
 
 @media (max-width: 767px) {
   .hero {
-    background-image: url("../../../assets/img/others/bg-mobile-unicorn2.png") !important;
+    background-image: url("../../../assets/img/others/bg-mobile-unicorn.png") !important;
     height: 750px;
   }
 }
