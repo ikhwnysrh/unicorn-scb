@@ -18,7 +18,7 @@ textarea {
   width: 100%;
   padding: 10px 10px;
   border-radius: 10px;
-  border: solid 2px #E1A56B;
+  border: solid 2px #ffa100;
   font-size: 14px;
   font-weight: 400;
   color: #44465F;
@@ -26,7 +26,7 @@ textarea {
   resize: none;
 }
 textarea:focus {
-  border: solid 2px #E1A56B;
+  border: solid 2px #ffa100;
 }
 
 [data-aos] {
@@ -50,7 +50,7 @@ textarea:focus {
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: #E1A56B;
+  color: #ffa100;
   font-family: "Croissant One", cursive;
 }
 #about #about-title {

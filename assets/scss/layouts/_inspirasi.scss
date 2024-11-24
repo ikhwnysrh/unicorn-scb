@@ -62,7 +62,7 @@
       .btn {
         margin-top: 10px;
         background-color: $color-primary;
-        border: 2px solid #E1A56B;
+        border: 2px solid #ffa100;
         color: $color-white;
         font-size: 14px;
         font-weight: 500;
@@ -74,7 +74,7 @@
         &:hover {
           background-color: $color-secondary;
           color: $color-primary;
-          border: 2px solid #E1A56B;
+          border: 2px solid #ffa100;
         }
       }
     }

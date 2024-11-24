@@ -122,7 +122,7 @@
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 20px;
-    color: #E1A56B;
+    color: #ffa100;
     font-family: "Croissant One", cursive;
   }
 
@@ -132,8 +132,8 @@
     .page-item {
       &.active {
         .page-link {
-          background-color: #E1A56B;
-          border-color: #E1A56B;
+          background-color: #ffa100;
+          border-color: #ffa100;
           color: #fff;
         }
       }
@@ -161,8 +161,8 @@
         color: #44465F;
 
         &:hover {
-          background-color: #E1A56B;
-          border-color: #E1A56B;
+          background-color: #ffa100;
+          border-color: #ffa100;
           color: #44465F;
         }
       }

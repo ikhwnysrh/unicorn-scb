@@ -36,7 +36,7 @@ textarea {
 }
 
 // Mixin Button Style
-@mixin button-style($btn-color: #e1a56b) {
+@mixin button-style($btn-color: #ffa100) {
   background-color: $btn-color;
   border: 2px solid $btn-color;
   color: #ffffff;

@@ -18,7 +18,7 @@ textarea {
   width: 100%;
   padding: 10px 10px;
   border-radius: 10px;
-  border: solid 2px #E1A56B;
+  border: solid 2px #ffa100;
   font-size: 14px;
   font-weight: 400;
   color: #44465F;
@@ -26,7 +26,7 @@ textarea {
   resize: none;
 }
 textarea:focus {
-  border: solid 2px #E1A56B;
+  border: solid 2px #ffa100;
 }
 
 [data-aos] {
@@ -43,7 +43,7 @@ textarea:focus {
 #testimonial .carousel-control-next {
   width: 50px;
   height: 50px;
-  background-color: #E1A56B;
+  background-color: #ffa100;
   border-radius: 50%;
   border: none;
   outline: none !important;
@@ -65,7 +65,7 @@ textarea:focus {
 #testimonial .carousel-item:nth-child(1) .testimonial-item h3 {
   font-size: 24px;
   margin-bottom: 1rem;
-  color: #E1A56B;
+  color: #ffa100;
 }
 #testimonial .carousel-item:nth-child(1) .testimonial-item .rating {
   font-size: 24px;
@@ -92,7 +92,7 @@ textarea:focus {
 #testimonial .carousel-item:nth-child(2) .testimonial-item h3 {
   font-size: 24px;
   margin-bottom: 1rem;
-  color: #E1A56B;
+  color: #ffa100;
 }
 #testimonial .carousel-item:nth-child(2) .testimonial-item .rating {
   font-size: 24px;
@@ -114,7 +114,7 @@ textarea:focus {
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 10px;
-  color: #E1A56B;
+  color: #ffa100;
   font-family: "Croissant One", cursive;
 }
 #testimonial .testimonial-title p {
@@ -124,8 +124,8 @@ textarea:focus {
   margin-bottom: 20px;
 }
 #testimonial .testimonial-button {
-  background-color: #E1A56B;
-  border: 2px solid #E1A56B;
+  background-color: #ffa100;
+  border: 2px solid #ffa100;
   color: #ffffff;
   font-size: 14px;
   font-weight: 500;
@@ -136,12 +136,12 @@ textarea:focus {
 }
 #testimonial .testimonial-button:hover {
   background-color: #ffffff;
-  color: #E1A56B;
-  border: 2px solid #E1A56B;
+  color: #ffa100;
+  border: 2px solid #ffa100;
 }
 #testimonial .testimonial-button:hover {
   background-color: #44465F;
-  border: solid 2px #E1A56B;
+  border: solid 2px #ffa100;
   color: #ffffff;
 }
 
@@ -189,15 +189,15 @@ textarea:focus {
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: #E1A56B;
+  color: #ffa100;
   font-family: "Croissant One", cursive;
 }
 .ulasan .pagination {
   justify-content: center;
 }
 .ulasan .pagination .page-item.active .page-link {
-  background-color: #E1A56B;
-  border-color: #E1A56B;
+  background-color: #ffa100;
+  border-color: #ffa100;
   color: #fff;
 }
 .ulasan .pagination .page-item.disabled .page-link {
@@ -218,13 +218,13 @@ textarea:focus {
   color: #44465F;
 }
 .ulasan .pagination .page-item .page-link:hover {
-  background-color: #E1A56B;
-  border-color: #E1A56B;
+  background-color: #ffa100;
+  border-color: #ffa100;
   color: #44465F;
 }
 .ulasan-modal-button {
-  background-color: #E1A56B;
-  border: 2px solid #E1A56B;
+  background-color: #ffa100;
+  border: 2px solid #ffa100;
   color: #ffffff;
   font-size: 14px;
   font-weight: 500;
@@ -235,13 +235,13 @@ textarea:focus {
 }
 .ulasan-modal-button:hover {
   background-color: #ffffff;
-  color: #E1A56B;
-  border: 2px solid #E1A56B;
+  color: #ffa100;
+  border: 2px solid #ffa100;
 }
 .ulasan-modal-button:hover {
   background-color: #ffffff;
-  border: solid 2px #E1A56B;
-  color: #E1A56B;
+  border: solid 2px #ffa100;
+  color: #ffa100;
 }
 
 @media (max-width: 768px) {

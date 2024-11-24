@@ -18,7 +18,7 @@ textarea {
   width: 100%;
   padding: 10px 10px;
   border-radius: 10px;
-  border: solid 2px #E1A56B;
+  border: solid 2px #ffa100;
   font-size: 14px;
   font-weight: 400;
   color: #44465F;
@@ -26,7 +26,7 @@ textarea {
   resize: none;
 }
 textarea:focus {
-  border: solid 2px #E1A56B;
+  border: solid 2px #ffa100;
 }
 
 [data-aos] {
@@ -77,8 +77,8 @@ textarea:focus {
 }
 #products .card .btn-detail-product {
   margin-top: 10px;
-  background-color: #E1A56B;
-  border: 2px solid #E1A56B;
+  background-color: #ffa100;
+  border: 2px solid #ffa100;
   color: #ffffff;
   font-size: 14px;
   font-weight: 500;
@@ -89,8 +89,8 @@ textarea:focus {
 }
 #products .card .btn-detail-product:hover {
   background-color: #ffffff;
-  color: #E1A56B;
-  border: 2px solid #E1A56B;
+  color: #ffa100;
+  border: 2px solid #ffa100;
 }
 #products .modal .modal-dialog {
   max-width: 800px;
@@ -115,8 +115,8 @@ textarea:focus {
   text-align: justify;
 }
 #products .modal .modal-footer button {
-  background-color: #E1A56B;
-  border: 2px solid #E1A56B;
+  background-color: #ffa100;
+  border: 2px solid #ffa100;
   color: #ffffff;
   font-size: 14px;
   font-weight: 500;
@@ -127,8 +127,8 @@ textarea:focus {
 }
 #products .modal .modal-footer button:hover {
   background-color: #ffffff;
-  color: #E1A56B;
-  border: 2px solid #E1A56B;
+  color: #ffa100;
+  border: 2px solid #ffa100;
 }
 #products .product-resep table {
   width: 100%;

@@ -4,7 +4,7 @@
 @import "../base/typography";
 
 // .accordion-button {
-//   background-color: #e1a56b !important;
+//   background-color: #ffa100 !important;
 //   color: #fff;
 
 //   &:focus {
@@ -18,7 +18,7 @@
 //   }
 
 //   &::after {
-//     color: #e1a56b !important;
+//     color: #ffa100 !important;
 //     background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
 //   }
 // }
@@ -29,10 +29,10 @@ $total-pertanyaan: 5;
   .accordion-item:nth-child(#{$i}) {
     h2.accordion-header {
       button.accordion-button {
-        background-color: darken(#e1a56b, $i * 5%);
+        background-color: darken(#ffa100, $i * 5%);
         color: #fff;
         &::after {
-          color: darken(#e1a56b, $i * 5%);
+          color: darken(#ffa100, $i * 5%);
           background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
         }
       }

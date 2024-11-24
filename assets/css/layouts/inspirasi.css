@@ -18,7 +18,7 @@ textarea {
   width: 100%;
   padding: 10px 10px;
   border-radius: 10px;
-  border: solid 2px #E1A56B;
+  border: solid 2px #ffa100;
   font-size: 14px;
   font-weight: 400;
   color: #44465F;
@@ -26,7 +26,7 @@ textarea {
   resize: none;
 }
 textarea:focus {
-  border: solid 2px #E1A56B;
+  border: solid 2px #ffa100;
 }
 
 [data-aos] {
@@ -42,7 +42,7 @@ textarea:focus {
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: #E1A56B;
+  color: #ffa100;
   font-family: "Croissant One", cursive;
 }
 #inspirasi .card {
@@ -72,7 +72,7 @@ textarea:focus {
 #inspirasi .card .card-body .publish-date {
   font-size: 14px;
   font-weight: 400;
-  color: #E1A56B;
+  color: #ffa100;
   margin-bottom: 10px;
 }
 #inspirasi .card .card-body .title {
@@ -86,8 +86,8 @@ textarea:focus {
 }
 #inspirasi .card .card-footer .btn {
   margin-top: 10px;
-  background-color: #E1A56B;
-  border: 2px solid #E1A56B;
+  background-color: #ffa100;
+  border: 2px solid #ffa100;
   color: #ffffff;
   font-size: 14px;
   font-weight: 500;
@@ -98,8 +98,8 @@ textarea:focus {
 }
 #inspirasi .card .card-footer .btn:hover {
   background-color: #44465F;
-  color: #E1A56B;
-  border: 2px solid #E1A56B;
+  color: #ffa100;
+  border: 2px solid #ffa100;
 }
 
 /*# sourceMappingURL=inspirasi.css.map */

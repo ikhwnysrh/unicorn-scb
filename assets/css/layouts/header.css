@@ -18,7 +18,7 @@ textarea {
   width: 100%;
   padding: 10px 10px;
   border-radius: 10px;
-  border: solid 2px #E1A56B;
+  border: solid 2px #ffa100;
   font-size: 14px;
   font-weight: 400;
   color: #44465F;
@@ -26,7 +26,7 @@ textarea {
   resize: none;
 }
 textarea:focus {
-  border: solid 2px #E1A56B;
+  border: solid 2px #ffa100;
 }
 
 [data-aos] {
@@ -36,9 +36,9 @@ textarea:focus {
 }
 
 .navbar {
-  background-color: #E1A56B;
+  background-color: #ffa100;
   padding: 10px 0;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 .logo-brand {

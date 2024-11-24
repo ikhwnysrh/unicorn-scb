@@ -4,12 +4,12 @@
 @import "../base/typography";
 
 $color_1: #44465F;
-$color_2: #E1A56B;
+$color_2: #ffa100;
 $color_3: #ffffff;
 $font-family_1: "Croissant One", cursive;
 $background-color_1: #F9F9F9;
 $background-color_2: #44465F;
-$background-color_3: #E1A56B;
+$background-color_3: #ffa100;
 
 #artikel {
   padding: 50px 0;
@@ -95,7 +95,7 @@ $background-color_3: #E1A56B;
       .btn {
         margin-top: 10px;
         background-color: $background-color_3;
-        border: 2px solid #E1A56B;
+        border: 2px solid #ffa100;
         color: $color_3;
         font-size: 14px;
         font-weight: 500;
@@ -107,7 +107,7 @@ $background-color_3: #E1A56B;
         &:hover {
           background-color: $background-color_2;
           color: $color_2;
-          border: 2px solid #E1A56B;
+          border: 2px solid #ffa100;
         }
       }
     }

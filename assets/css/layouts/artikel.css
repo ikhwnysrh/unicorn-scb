@@ -18,7 +18,7 @@ textarea {
   width: 100%;
   padding: 10px 10px;
   border-radius: 10px;
-  border: solid 2px #E1A56B;
+  border: solid 2px #ffa100;
   font-size: 14px;
   font-weight: 400;
   color: #44465F;
@@ -26,7 +26,7 @@ textarea {
   resize: none;
 }
 textarea:focus {
-  border: solid 2px #E1A56B;
+  border: solid 2px #ffa100;
 }
 
 [data-aos] {
@@ -91,7 +91,7 @@ textarea:focus {
 #rekomendasi .card .card-body .artikel-date {
   font-size: 14px;
   font-weight: 400;
-  color: #E1A56B;
+  color: #ffa100;
   margin-bottom: 10px;
 }
 #rekomendasi .card .card-body .artikel-date a {
@@ -108,8 +108,8 @@ textarea:focus {
 }
 #rekomendasi .card .card-footer .btn {
   margin-top: 10px;
-  background-color: #E1A56B;
-  border: 2px solid #E1A56B;
+  background-color: #ffa100;
+  border: 2px solid #ffa100;
   color: #ffffff;
   font-size: 14px;
   font-weight: 500;
@@ -120,8 +120,8 @@ textarea:focus {
 }
 #rekomendasi .card .card-footer .btn:hover {
   background-color: #44465F;
-  color: #E1A56B;
-  border: 2px solid #E1A56B;
+  color: #ffa100;
+  border: 2px solid #ffa100;
 }
 
 /*# sourceMappingURL=artikel.css.map */

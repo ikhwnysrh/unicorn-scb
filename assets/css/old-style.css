@@ -16,7 +16,7 @@ body {
 }
 
 .navbar {
-  background-color: #e1a56b;
+  background-color: #ffa100;
   padding: 10px 0;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
@@ -164,7 +164,7 @@ body {
 }
 
 #products .card .btn-detail-product {
-  background-color: #e1a56b;
+  background-color: #ffa100;
   border: none;
   color: #fff;
   font-size: 14px;
@@ -186,7 +186,7 @@ body {
 #testimonial .carousel-control-prev {
   width: 50px;
   height: 50px;
-  background-color: #e1a56b;
+  background-color: #ffa100;
   border-radius: 50%;
   border: none;
   outline: none !important;
@@ -195,7 +195,7 @@ body {
 #testimonial .carousel-control-next {
   width: 50px;
   height: 50px;
-  background-color: #e1a56b;
+  background-color: #ffa100;
   border-radius: 50%;
   border: none;
   outline: none !important;
@@ -375,7 +375,7 @@ footer ul li a {
 }
 
 footer ul li a:hover {
-  color: #e1a56b;
+  color: #ffa100;
 }
 
 footer .social-icon .fab {
@@ -386,7 +386,7 @@ footer .social-icon .fab {
 }
 
 footer .social-icon .fab:hover {
-  color: #e1a56b;
+  color: #ffa100;
 }
 
 .copyright {

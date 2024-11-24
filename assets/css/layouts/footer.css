@@ -18,7 +18,7 @@ textarea {
   width: 100%;
   padding: 10px 10px;
   border-radius: 10px;
-  border: solid 2px #E1A56B;
+  border: solid 2px #ffa100;
   font-size: 14px;
   font-weight: 400;
   color: #44465F;
@@ -26,7 +26,7 @@ textarea {
   resize: none;
 }
 textarea:focus {
-  border: solid 2px #E1A56B;
+  border: solid 2px #ffa100;
 }
 
 [data-aos] {
@@ -48,7 +48,7 @@ footer img {
 }
 footer h3 {
   margin-bottom: 20px;
-  color: #E1A56B;
+  color: #ffa100;
   font-family: "Croissant One", cursive;
 }
 footer p {
@@ -70,7 +70,7 @@ footer ul li a {
   margin-bottom: 10px;
 }
 footer ul li a:hover {
-  color: #E1A56B !important;
+  color: #ffa100 !important;
 }
 footer .social-icon .fab {
   font-size: 24px;
@@ -84,7 +84,7 @@ footer .social-icon .fab:hover {
 footer .copyright {
   font-size: 14px;
   font-weight: 400;
-  color: #E1A56B !important;
+  color: #ffa100 !important;
   margin-top: 20px;
 }
 footer .social-icon .facebook:hover {

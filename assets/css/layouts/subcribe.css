@@ -18,7 +18,7 @@ textarea {
   width: 100%;
   padding: 10px 10px;
   border-radius: 10px;
-  border: solid 2px #E1A56B;
+  border: solid 2px #ffa100;
   font-size: 14px;
   font-weight: 400;
   color: #44465F;
@@ -26,7 +26,7 @@ textarea {
   resize: none;
 }
 textarea:focus {
-  border: solid 2px #E1A56B;
+  border: solid 2px #ffa100;
 }
 
 [data-aos] {
@@ -71,7 +71,7 @@ textarea:focus {
   width: 50%;
   height: 50px;
   border-radius: 10px;
-  border: solid 2px #E1A56B;
+  border: solid 2px #ffa100;
   padding-left: 20px;
   margin-right: 10px;
   font-size: 16px;
@@ -87,8 +87,8 @@ textarea:focus {
   color: #ffffff;
 }
 #subcribe .subcribe-card form button {
-  background-color: #E1A56B;
-  border: 2px solid #E1A56B;
+  background-color: #ffa100;
+  border: 2px solid #ffa100;
   color: #ffffff;
   font-size: 14px;
   font-weight: 500;
@@ -96,18 +96,18 @@ textarea:focus {
   border-radius: 10px;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
-  background-color: #E1A56B;
-  border: solid 2px #E1A56B;
+  background-color: #ffa100;
+  border: solid 2px #ffa100;
   color: #ffffff;
 }
 #subcribe .subcribe-card form button:hover {
   background-color: #ffffff;
-  color: #E1A56B;
-  border: 2px solid #E1A56B;
+  color: #ffa100;
+  border: 2px solid #ffa100;
 }
 #subcribe .subcribe-card form button:hover {
   background-color: #44465F;
-  border: solid 2px #E1A56B;
+  border: solid 2px #ffa100;
   color: #ffffff;
 }
 
