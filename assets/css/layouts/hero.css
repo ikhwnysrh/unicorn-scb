@@ -42,7 +42,7 @@ textarea:focus {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 @media (max-width: 767px) {
